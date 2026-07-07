@@ -142,3 +142,9 @@ specs/
 .harness/
 
 .mcp.json
+# Local provider API keys (never commit)
+.env.secrets
+
+# Local secrets — Fernet key lives in BOTH files (never commit)
+.encryption_key.txt
+docker-compose.override.yml
